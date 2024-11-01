@@ -1,0 +1,24 @@
+[color]
+	ui = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	autocrlf = false
+	editor = code --wait
+[init]
+	defaultBranch = main
+[alias]
+	can = commit --amend --no-edit
+	caan = commit -a --amend --no-edit
+	lol = log --oneline
+	lolg = log --oneline --graph
+	prb = pull --rebase
+	sup = submodule update --recursive
+	s = status
+	c = commit -m
+	ca = commit -am
+	sw = switch
+	ch = checkout

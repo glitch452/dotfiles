@@ -1,0 +1,209 @@
+{
+  "remote.SSH.defaultExtensions": [
+    "github.vscode-github-actions",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "mhutchie.git-graph",
+    "oderwat.indent-rainbow",
+    "skellock.just",
+    "bierner.markdown-preview-github-styles",
+    "PKief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "gurumukhi.selected-lines-count",
+    "foxundermoon.shell-format",
+    "richie5um2.vscode-sort-json",
+    "ms-vscode.test-adapter-converter",
+    "hbenl.vscode-test-explorer",
+    "redhat.vscode-yaml"
+  ],
+  "errorLens.messageEnabled": false,
+  "errorLens.messageBackgroundMode": "none",
+  "editor.renderWhitespace": "none",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.section.embedded.begin.php",
+          "punctuation.section.embedded.end.php"
+        ],
+        "settings": {
+          "foreground": "#dd4444"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "/bin/bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": ["-l"],
+      "color": "terminal.ansiYellow"
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "Bash (Login Shell)": {
+      "path": "/bin/bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.profiles.windows": {
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "files.associations": {
+    "*.pl": "prolog",
+    ".prettierrc": "yaml"
+  },
+  "workbench.experimental.enableNewProfilesUI": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": { "*.ipynb": "jupyter-notebook" },
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editor.revealIfOpen": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.alwaysShowStatus": true,
+  "explorer.confirmDelete": false,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "mssql.enableQueryHistoryCapture": false,
+  "python.languageServer": "Pylance",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "cSpell.userWords": ["daviddearden", "dearden"],
+  "cSpell.languageSettings": [],
+  "cSpell.enableFiletypes": ["dockercompose", "dockerfile"],
+  "refreshNpmPackages.npmDefault": "npm i",
+  "githubPullRequests.pullBranch": "never",
+  "svelte.enable-ts-plugin": true,
+  "mochaExplorer.asyncOnly": true,
+  "mocha.files.glob": "spec/**/*.js",
+  "mocha.nycPath": "~/.vscode/extensions/maty.vscode-mocha-sidebar-*/node_modules/nyc/bin/nyc",
+  "mocha.env": {},
+  "mocha.coverage": { "enable": false },
+  "debug.onTaskErrors": "debugAnyway",
+  "git.openRepositoryInParentFolders": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[proto]": {
+    "editor.defaultFormatter": "bufbuild.vscode-buf"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.formatOnSave": true
+  },
+  "wallaby.startAutomatically": false,
+  "window.commandCenter": false,
+  "settingsSync.ignoredExtensions": [
+    "metrics-design-automation.metrics-desktop",
+    "nicollasr.vscode-streamdeck"
+  ],
+  "console-ninja.featureSet": "Community",
+  "nxConsole.commonNxCommands": [
+    "run-many",
+    "affected",
+    "affected:graph",
+    "list",
+    "migrate",
+    "add-dependency",
+    "add-dev-dependency",
+    "format:write"
+  ],
+  "terminal.integrated.env.linux": {},
+  "terraform.languageServer.enable": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.newWindowProfile": "Default"
+}
